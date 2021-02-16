@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    align-items: center;
+  }
+}
