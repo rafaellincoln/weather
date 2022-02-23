@@ -1,5 +1,8 @@
 # Aplicação para visualização do clima na localização atual
 
+## Pagina de teste
+https://rafaellincoln.github.io/weather/
+
 ## Ferramentas utilizadas
 - React (create-react-app)
 - Axios
