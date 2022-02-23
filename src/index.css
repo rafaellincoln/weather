@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.color-title {
+  color: #0096FF;
+}
+
+.color-text {
+  color: #878787;
+}
+.color-text-neutral {
+  color: #bababa ;
+}
+.cinnabar {
+  color: #ea4335;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+.size-16 {
+  font-size: 16px;
+}
+.size-24 {
+  font-size: 24px;
+}
+.size-64 {
+  font-size: 64px;
+}
+
+.w-60 {
+  width: 60px;
+}
+.w-100vw {
+  width: 100vw;
+}
+.w-100 {
+  width: 100%;
+}
+.mw-100 {
+  max-width: 100%;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.border {
+  border: #fafafa solid 1px;
+}
+
+.border-top {
+  border-top: #cecece solid 1px;
+}
+
+.v-align-top {
+  vertical-align: top;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.lh-9 {
+  line-height: 0.9;
+}
+
+.ml--10 {
+  margin-left: -10px;
+}
+.ml-4 {
+  margin-left: 4px;
+}
+.mr-32 {
+  margin-right: 32px;
+}
+.mt-12 {
+  margin-top: 12px;
+}
+.mh-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.d-flex {
+  display: flex
+}
+
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .m-0-s {
+    margin: 0;
+  }
+
+  .flex-column-s {
+    flex-direction: column;
+  }
+}
